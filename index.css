@@ -1,0 +1,80 @@
+html{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    background: rgba(4, 4, 34, 0.84);
+}
+
+.container{
+    background: white;
+    width: 280px;
+    padding: 22px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+
+#passwordInput{
+    width: 250px;
+    height: 8px;
+    padding: 11px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.input i{
+    position: absolute;
+    margin-left: -26px;
+    margin-top: 6px;
+    font-size: 24px;
+    color: black;
+}
+
+#passwordlength{
+    width: 70px;
+    height: 17px;
+    position: absolute;
+    margin-left:200px ;
+    margin-top: 24px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.option{
+    margin-top: 32px;
+}
+
+.text{
+    display: flex;
+    margin-top: -23px;
+}
+.text p{
+    margin-left:11px;
+    font-size: 22px;
+}
+.text input[type="checkbox"]{
+    width: 22px;
+    height: 20px;
+    accent-color:rgb(2, 150, 2) ;
+    position: absolute;
+    margin-left: 254px;
+    margin-top: 27px;
+}
+button{
+    width: 280px;
+    height: 35px;
+    background: rgba(3, 3, 58, 0.938);
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
